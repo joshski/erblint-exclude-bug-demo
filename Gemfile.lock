@@ -1,3 +1,17 @@
+GIT
+  remote: https://github.com/joshski/erb-lint.git
+  revision: dc7cc2553dd33df2466a5a31c6cd91d9e1ed7b60
+  ref: dc7cc2553dd33df2466a5a31c6cd91d9e1ed7b60
+  specs:
+    erb_lint (0.1.1)
+      activesupport
+      better_html (~> 1.0.7)
+      html_tokenizer
+      parser (>= 2.7.1.4)
+      rainbow
+      rubocop
+      smart_properties
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -97,14 +111,6 @@ GEM
       irb (>= 1.3.6)
       reline (>= 0.2.7)
     digest (3.1.0)
-    erb_lint (0.1.1)
-      activesupport
-      better_html (~> 1.0.7)
-      html_tokenizer
-      parser (>= 2.7.1.4)
-      rainbow
-      rubocop
-      smart_properties
     erubi (1.10.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -251,7 +257,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
-  erb_lint
+  erb_lint!
   importmap-rails
   jbuilder
   puma (~> 5.0)

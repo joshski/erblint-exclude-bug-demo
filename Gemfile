@@ -63,7 +63,7 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
-  gem 'erb_lint', require: false
+  gem 'erb_lint', github: 'joshski/erb-lint', ref: 'dc7cc2553dd33df2466a5a31c6cd91d9e1ed7b60', require: false
 end
 
 group :test do
