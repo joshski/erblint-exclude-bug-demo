@@ -1,0 +1,1 @@
+bundle exec erblint ./app/views/layouts/application.html.erb
